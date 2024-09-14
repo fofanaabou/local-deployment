@@ -31,9 +31,9 @@ spec:
           image: postgres:14.4
           env:
             - name: POSTGRES_USER
-              value: user
+              value: postgres
             - name: POSTGRES_PASSWORD
-              value: password
+              value: postgres
           resources:
             requests:
               cpu: 100m
