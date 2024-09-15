@@ -18,7 +18,7 @@ configMapGenerator:
 images:
 - name: catalog-service
   newName: ghcr.io/fofanaabou/catalog-service
-  newTag: fb97ed82239c3c7bb7fa2452d5c404147686c3e1
+  newTag: 460a62ae611a9a402e6cf1d30f5938d256d25421
 
 replicas:
 - count: 2
